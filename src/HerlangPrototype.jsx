@@ -32,7 +32,7 @@ const syntaxGuide = [
 		category: '🤔 比较运算符对照表',
 		items: [
 			{ herlang: '是不是', js: '===' },
-			{ herlang: '不是吧, 绿茶', js: '!==' },
+			{ herlang: '不是吧', js: '!==' },
 			{ herlang: '比我大', js: '>' },
 			{ herlang: '比我小', js: '<' },
 			{ herlang: '不比我小', js: '>=' },
@@ -229,7 +229,7 @@ const chapters = [
 	{
 		title: 'Chapter 3：控制流程',
 		example: `宝宝你是一个 年龄 我接受 20
-抛开事实不谈 年龄 > 18:
+抛开事实不谈 年龄 比我大 18:
   小作文("成年了")
 我接受不等于我同意:
   小作文("未成年")`,
@@ -237,7 +237,7 @@ const chapters = [
 	{
 		title: 'Chapter 4：循环结构',
 		example: `宝宝你是一个 数 我接受 0
-你再说一遍 数 < 3:
+你再说一遍 数 比我小 3:
   小作文("数是" 拼单 数)
   数 我同意 数 拼单 1`,
 	},

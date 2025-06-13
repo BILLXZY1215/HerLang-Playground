@@ -32,14 +32,14 @@ HerLang is a programming language that expresses complex programming concepts us
 
 ### 🤔 Comparison Operators
 
-| HerLang         | JavaScript |
-| --------------- | ---------- |
-| `是不是`        | `===`      |
-| `不是吧` `绿茶` | `!==`      |
-| `比我大`        | `>`        |
-| `比我小`        | `<`        |
-| `不比我小`      | `>=`       |
-| `不比我大`      | `<=`       |
+| HerLang    | JavaScript |
+| ---------- | ---------- |
+| `是不是`   | `===`      |
+| `不是吧`   | `!==`      |
+| `比我大`   | `>`        |
+| `比我小`   | `<`        |
+| `不比我小` | `>=`       |
+| `不比我大` | `<=`       |
 
 ### 🎯 Control Flow
 
