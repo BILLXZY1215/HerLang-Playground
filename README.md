@@ -2,7 +2,7 @@
 
 A programming language learning platform designed for young women! Learn programming fundamentals with the cutest and most interesting Chinese syntax.
 
-![HerLang Logo](https://img.shields.io/badge/HerLang-Fairy_Programming-ff69b4?style=for-the-badge)
+![HerLang Logo](https://img.shields.io/badge/HerLang-Fairy_Programming-ff69b4?style=flat-square)
 ![React](https://img.shields.io/badge/React-18.0.0-61DAFB?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-4.0.0-646CFF?style=flat-square&logo=vite)
 
@@ -83,6 +83,17 @@ HerLang is a programming language that expresses complex programming concepts us
 小作文("Money left after rent:" 拼单 剩余)
 ```
 
+```javascript
+let 工资 = 10000
+let 房租 = 3000
+let 剩余 = 工资 - 房租
+console.log("Money left after rent:" + 剩余)
+```
+
+```output
+Money left after rent:7000
+```
+
 ### Conditional Statements
 
 ```herlang
@@ -93,6 +104,20 @@ HerLang is a programming language that expresses complex programming concepts us
   小作文("Keep working on yourself~")
 ```
 
+```javascript
+let 颜值 = 90
+if (颜值 > 80) {
+  console.log("You're a fairy!")
+}
+else {
+  console.log("Keep working on yourself~")
+}
+```
+
+```output
+You're a fairy!
+```
+
 ### Emotional Operations
 
 ```herlang
@@ -100,6 +125,17 @@ HerLang is a programming language that expresses complex programming concepts us
 宝宝你是一个 失恋次数 我接受 2
 宝宝你是一个 痛苦值 我接受 心情 渣男 失恋次数
 小作文("Pain level after meeting scumbags:" 拼单 痛苦值)
+```
+
+```javascript
+let 心情 = 5
+let 失恋次数 = 2
+let 痛苦值 = 心情 * 失恋次数
+console.log("Pain level after meeting scumbags:" + 痛苦值)
+```
+
+```output
+Pain level after meeting scumbags:10
 ```
 
 ## 🚀 Quick Start
